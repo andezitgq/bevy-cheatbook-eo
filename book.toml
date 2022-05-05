@@ -1,0 +1,10 @@
+[book]
+authors = ["Ida Iyes", "Nigra Viburno"]
+language = "eo"
+multilingual = false
+src = "src"
+title = "Neoficiala Bevy Tromplibro"
+
+[output.html]
+additional-js = ["nagbar.js"]
+additional-css = ["nagbar.css", "sidebar.css"]
