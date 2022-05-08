@@ -2,23 +2,15 @@
 
 {{#include ./include/links.md}}
 
-Ĉi tio estas referenc-stila libro por [Bevy ludmotoro][bevy::website]
-([GitHub][project::bevy]).
+Ĉi tio estas referenc-stila libro por [Bevy ludmotoro][bevy::website]([GitHub][project::bevy]).
 
-Ĝi celas instrui Bevy konceptojn en konciza maniero, helpi vin esti produktiva,
-kaj malkovru la scion, kiun vi bezonas.
+Ĝi celas instrui Bevy konceptojn en konciza maniero, helpi vin esti produktiva, kaj malkovru la scion, kiun vi bezonas.
 
-Ĉi tiu libro kunigas multe da komunuma saĝeco, kiu ofte ne estas kovrita
-per oficiala dokumentado, ŝparante al vi la bezonon lukti kun aferoj kiuj
-aliaj jam komprenis!
+Ĉi tiu libro kunigas multe da komunuma saĝeco, kiu ofte ne estas kovrita per oficiala dokumentado, ŝparante al vi la bezonon lukti kun aferoj kiuj aliaj jam komprenis!
 
-Kvankam ĝi celas esti ĝisfunda, dokumentado de tuta ludmotoro estas
-monumenta tasko. Mi enfokusigas mian tempon sur kio ajn mi kredas la komunumon
-plej bezonas.
+Kvankam ĝi celas esti ĝisfunda, dokumentado de tuta ludmotoro estas monumenta tasko. Mi enfokusigas mian tempon por io ajn mi kredas la komunumo plej bezonas.
 
-Tial, estas ankoraŭ multaj preterlasoj, kaj por bazaj kaj progresintaj
-temoj. Tamen, mi certas, ke ĉi tiu libro pruvos esti valora
-rimedo al vi!
+Tial, estas ankoraŭ multaj preterlasoj, ambaŭ por bazaj kaj progresintaj temoj. Tamen, mi certas, ke ĉi tiu libro pruvos esti valora rimedo al vi!
 
 ***Bonvenon! Ke ĉi tiu libro servu al vi bone!***
 
