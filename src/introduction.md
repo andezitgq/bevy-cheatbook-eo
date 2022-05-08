@@ -15,9 +15,9 @@ Tial, estas ankoraŭ multaj preterlasoj, ambaŭ por bazaj kaj progresintaj temoj
 ***Bonvenon! Ke ĉi tiu libro servu al vi bone!***
 
 - [Cheatbook EN GitHub](https://github.com/bevy-cheatbook/bevy-cheatbook)
-- [Tromplibro EO GitHub](#)
+- [Tromplibro EO GitHub](https://github.com/andezitgq/bevy-cheatbook-eo/)
 - [Patronado de Cheatbook aŭtoro](https://github.com/sponsors/inodentry)
-- [Retejo de la tradukinto](#)
+- [Retejo de la tradukinto](https://github.com/andezitgq)
 
 ## Kiel uzi la libron
 
@@ -32,89 +32,81 @@ povas trovi ĝin el la enhavtabelo (la flankpanelo) aŭ uzante la serĉfunkcion
 La [Superrigardo de Ĉapitroj][chapter::overview] paĝo donos al vi ĝeneralan ideon
 pri kiel la libro estas strukturita.
 
-If you are new to Bevy, or would like a more guided experience, try the
-[tutorial page][chapter::tutorial]. It will help you navigate the book in
-an order that makes sense for learning, from beginner to advanced topics.
+Se vi estas komencanto en Bevy, aŭ dezirus pli gviditan sperton, provu la [instruckio paĝon][chapter::tutorial]. Ĉi tio helpos vin navigi la libron en ordo, kiu havas sencon por lernado, de elementaj ĝis progresintaj temoj.
 
-The [Bevy Builtins][chapter::builtins] page is a concise cheatsheet of useful
-information about types and features provided by Bevy.
+La [Bevy Enkonstruaĵoj][chapter::builtins] paĝo estas konciza kaŝslipeto de utila informaĵo pri tipoj kaj trajtoj, provizitaj de Bevy
 
-## Recommended Additional Resources
+## Rekomenditaj Aldonaj Rimedoj
 
-Bevy has a rich collection of [official code
-examples][bevy::examples].
+Bevy havas riĉan kolekton de [oficialaj kod-ekzemploj][bevy::examples].
 
-Check out [bevy-assets][bevyassets], for community-made resources.
+Vizitu [bevy-valoraĵojn][bevyassets], por komunume kreitaj rimedoj.
 
-Our community is very friendly and helpful. Feel welcome to join the [Bevy
-Discord][bevy::discord] to chat, ask questions, or get involved in the project!
+Nia komunumo estas tre amikema kaj utila. Bonvolu aliĝi al la [Bevy
+Diskordo][bevy::discord] por babili, demandi aŭ partopreni en la projekto!
 
-If you want to see some games made with Bevy, see [itch.io][itchio::bevy]
-or [Bevy Assets][bevyassets::games].
+Se vi volas vidi kelkajn ludojn, kreitajn per Bevy, vd. [itch.io][itchio::bevy]
+aŭ [Bevy Valoraĵojn][bevyassets::games].
 
-## Maintenance
+## Prizorgado
 
-This version of the book is for Bevy release 0.7.
+Ĉi tiu versio de la libro estas por Bevy-eldono 0.7.
 
-I intend to keep this book up-to-date and relevant with every new Bevy release.
-I also try to regularly make improvements to it, when I can manage it.
+Mi intencas teni ĉi tiun libron ĝisdatigita kaj grava kun ĉiu nova eldono de Bevy.
+Mi ankaŭ provas regule fari plibonigojn al ĝi, kiam mi povas administri ĝin.
 
-## Support Me
+## Subtenu la libraŭtoron
 
-<a class="github-button" href="https://github.com/sponsors/inodentry" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @inodentry on GitHub">GitHub Sponsors</a>
+<a class="github-button" href="https://github.com/sponsors/inodentry" data-icon="octicon-heart" data-size="grande" aria-label="Sponsoru @inodentry en GitHub ">GitHub-Sponsoroj | Ida Iyes</a>
 
-I'd like to keep improving and maintaining this book, to provide a high-quality
-independent learning resource for the Bevy community.
+Via oferdonaĵo helpas labori pri tia libere disponebla enhavo. Dankon! ❤️
 
-Your donation helps me work on such freely-available content. Thank you! ❤️
+## Subtenu Bevy
 
-## Support Bevy
+<a class="github-button" href="https://github.com/sponsors/cart" data-icon="octicon-heart" data-size="grande" aria-label="Sponsoru @cart sur GitHub ">GitHub-Sponsoroj | Bevy</a>
 
-If you like the Bevy Game Engine, you should consider donating to the
-official project.
+Se vi ŝatas na la Bevy Ludmotoro, vi devus konsideri oferdoni al la
+oficiala projekto.
 
-<a class="github-button" href="https://github.com/sponsors/cart" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @cart on GitHub">GitHub Sponsors</a>
+## Permesilo
 
-## License
+Kopirajto © 2021-2022 Ida Iyes.
 
-Copyright © 2021-2022 Ida Iyes.
+La tuta kodo de la libro estas provizita sub la
+[Licenco MIT-0](https://github.com/bevy-cheatbook/mit-0).
+Laŭ via elekto, vi ankaŭ povas uzi ĝin laŭ la regula MIT-permesilo.
 
-All code in the book is provided under the
-[MIT-0 License](https://github.com/bevy-cheatbook/mit-0).
-At your option, you may also use it under the regular MIT License.
-
-The text of the book is provided under the
+La teksto de la libro estas provizita sub la
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Exception: If used for the purpose of contribution to the "Official Bevy
-Project", the entire content of the book may be used under the [MIT-0
-License](https://github.com/bevy-cheatbook/mit-0).
+Escepto: Se uzata por la celo de kontribuo al la "Oficiala Bevy
+Projekto", la tuta enhavo de la libro povas esti uzata sub la [MIT-0
+Licenco](https://github.com/bevy-cheatbook/mit-0).
 
-"Official Bevy Project" is defined as:
- - Any files contained in the Git repository hosted at [https://github.com/bevyengine/bevy](https://github.com/bevyengine/bevy)
- - Any files contained in the Git repository hosted at [https://github.com/bevyengine/bevy-website](https://github.com/bevyengine/bevy-website)
- - Anything publicly visible on the [bevyengine.org](https://bevyengine.org) website
+"Oficiala Bevy Projekto" estas difinita kiel:
+ - Ajnaj dosieroj enhavitaj en la Git-deponejo estas gastigita ĉe [https://github.com/bevyengine/bevy](https://github.com/bevyengine/bevy)
+ - Ajnaj dosieroj enhavitaj en la Git-deponejo estas gastigita ĉe [https://github.com/bevyengine/bevy-website](https://github.com/bevyengine/bevy-website)
+ - Io ajn publike videbla en la retejo [bevyengine.org](https://bevyengine.org)
 
-## Contributions
+## Kontribuoj
 
-Development of this book is hosted on [GitHub][project::cb].
+Disvolviĝo de ĉi tiu libro estas gastigita en [GitHub][project::cb].
 
-Please file GitHub Issues for any wrong/confusing/misleading information,
-as well as suggestions for new content you'd like to be added to the book.
+Bonvolu registri GitHub-Problemojn por ajna malĝusta/konfuza/misgvida informo,
+kaj ankaŭ sugestojn pri nova enhavo, kiun vi ŝatus aldoniĝi al la libro.
 
-Contributions are accepted, with some limitations.
+Kontribuoj estas akceptitaj, kun kelkaj limigoj.
 
-See the [Contributing][cb::contributing] section for all the details.
+Vd. la sekcion [Kontribuo][cb::contributing] por ĉiuj detaloj.
 
-## Stability Warning
+## Averto pri Stabileco
 
-Bevy is still a very new and experimental game engine! It has only been
-public since August 2020!
+Bevy estas ankoraŭ tre nova kaj eksperimenta ludmotoro! Ĝi nur estis
+publika ekde aŭgusto 2020!
 
-While improvements have been happening at an incredible pace, and development
-is active, Bevy simply hasn't yet had the time to mature.
+Dum plibonigoj okazas kun nekredebla ritmo, kaj disvolviĝo
+estas aktiva, Bevy simple ankoraŭ ne havis la tempon maturiĝi.
 
-*There are no stability guarantees and breaking changes happen often!*
+*Ne ekzistas garantioj de la stabilecщ kaj rompiĝaj ŝanĝoj ofte okazas!*
 
-Usually, it not hard to adapt to changes with new releases (or even track
-the main git development branch), but you have been warned!
+Kutime, ne estas malfacile adaptiĝi al ŝanĝoj kun novaj eldonoj (aŭ eĉ spuri la ĉefa git-disvolva branĉo), sed vi estis avertita!
