@@ -11,8 +11,8 @@ Also check out the complete game examples:
 
 ---
 
-Bevy stores and manages all your data for you, using the Bevy ECS
-(Entity-Component System).
+Bevy konservas and kontrolas ĉiun vian datumon por vi, uzante na la Bevy EKS
+(Ent-Komponanta Sistemo).
 
 Conceptually, you can think of it by analogy with tables, like in a database
 or spreadsheet. Your different data types (Components) are like the "columns"

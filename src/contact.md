@@ -1,13 +1,12 @@
-# Contact Me
+# Kontakti kun la aŭtoro
 
 {{#include ./include/links.md}}
 
-You can find me in the following places:
+Vi povas trovi `@inodentry` en sekvaj lokoj:
 
  - Discord: `Ida Iyes#0981`
  - Twitter: [`@IyesGames`](https://twitter.com/IyesGames)
  - GitHub: [`@inodentry`](https://github.com/inodentry)
  - Reddit: [`iyesgames`](https://reddit.com/u/iyesgames)
 
-For improvements or fixes to this book, please file an issue
-on [GitHub][project::cb::issues].
+Por plibonigoj aŭ korektoj al ĉi tiu libro, bonvolu registri problemon [GitHub][project::cb::issues].

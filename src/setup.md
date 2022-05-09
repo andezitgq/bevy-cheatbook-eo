@@ -1,17 +1,14 @@
-# Bevy Setup Tips
+# Konsiloj pri Bevy Instalado
 
 {{#include ./include/links.md}}
 
-This chapter is a collection of additional tips for configuring
-your project or development tools, collected from the Bevy
-community, beyond what is covered in Bevy's [official setup
-documentation][bevy::getting-started].
+Ĉi tiu ĉapitro estas kolekto de aldonaj konsiletoj por agordi vian projekton aŭ disvolvilojn, kolektitajn de la Bevy-komunumo, krom tiuj, kiuj estas kovritaj en Bevy [oficialan instal-dokumentaĵo][bevy::getting-started].
 
-Feel free to suggest things to add under this chapter.
+Ne timu sugesti aldoni aferojn sub ĉi tiu ĉapitro.
 
 ---
 
-Also see the following other relevant content from this book:
-  - [Platform-specific information][chapter::platforms]
-  - [Configuration to fix slow performance][pitfall::perf]
+Ankaŭ vd. la sekvan alian oportunan enhavon el ĉi tiu libro:
+  - [Bevy en Diversaj Platformoj][chapter::platforms]
+  - [Kiel ripari malrapidan plenumecon][pitfall::perf]
 

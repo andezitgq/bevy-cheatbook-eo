@@ -1,6 +1,5 @@
-# Contributing to Bevy
+# Kontribuado al Bevy
 
 {{#include ./include/links.md}}
 
-If you want to help out the Bevy Game Engine project, check out Bevy's
-[official contributing guide][bevy::contributing].
+Se vi volas helpi la projekton Bevy Game Engine, rigardu la [oficialan kontribuadan gvidilon][bevy::contributing] de Bevy.

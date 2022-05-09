@@ -10,7 +10,7 @@
 
 Kvankam ĝi celas esti ĝisfunda, dokumentado de tuta ludmotoro estas monumenta tasko. Mi enfokusigas mian tempon por io ajn mi kredas la komunumo plej bezonas.
 
-Tial, estas ankoraŭ multaj preterlasoj, ambaŭ por bazaj kaj progresintaj temoj. Tamen, mi certas, ke ĉi tiu libro pruvos esti valora rimedo al vi!
+Tial, estas ankoraŭ multaj preterlasoj, ambaŭ por bazaj kaj progresintaj temoj. Tamen, mi certas, ke ĉi tiu libro pruvos esti valora risurco al vi!
 
 ***Bonvenon! Ke ĉi tiu libro servu al vi bone!***
 
@@ -36,11 +36,11 @@ Se vi estas komencanto en Bevy, aŭ dezirus pli gviditan sperton, provu la [inst
 
 La [Bevy Enkonstruaĵoj][chapter::builtins] paĝo estas konciza kaŝslipeto de utila informaĵo pri tipoj kaj trajtoj, provizitaj de Bevy
 
-## Rekomenditaj Aldonaj Rimedoj
+## Rekomenditaj Aldonaj Risurcoj
 
 Bevy havas riĉan kolekton de [oficialaj kod-ekzemploj][bevy::examples].
 
-Vizitu [bevy-valoraĵojn][bevyassets], por komunume kreitaj rimedoj.
+Vizitu [bevy-valoraĵojn][bevyassets], por komunume kreitaj risurcoj.
 
 Nia komunumo estas tre amikema kaj utila. Bonvolu aliĝi al la [Bevy
 Diskordo][bevy::discord] por babili, demandi aŭ partopreni en la projekto!

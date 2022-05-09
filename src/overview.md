@@ -1,34 +1,28 @@
-# Chapter Overview
+# Superrigardo de Ĉapitroj
 
 {{#include ./include/links.md}}
 
-This book is organized into a number of different chapters, covering different
-aspects of working with Bevy. The is designed to be useful as a reference
-and learning tool, so you can jump to what interests you and learn about it.
+Ĉi tiu libro estas organizita en kelkajn diversajn ĉapitrojn, kovrantaj malsamajn aspektojn de laboro kun Bevy. Ĝi estas desegnita por esti utila kiel referenco kaj lerna ilo, do vi povas translokiĝi al tio, kio interesas vin kaj lerni pri ĝi.
 
-If you would like a more guided tutorial-like experience, or to browse the
-book by relative difficulty (from beginner to advanced), try the [guided
-tutorial page][chapter::tutorial]. It recommends topics in a logical order for
-learning.
+Se vi deziras pli gviditan instrukcian sperton, aŭ foliumi la libron laŭ la malfacileco (de komencanto ĝis progresintulo), penu la [paĝon de gvidita instrukcio][chapter::tutorial]. Ĝi rekomendas temojn kun logika ordo por lernado.
 
-The [Bevy Builtins][chapter::builtins] page is a concise cheatsheet of useful
-information about types and features provided by Bevy.
+La [Bevy Enkonstruaĵoj][chapter::builtins] paĝo estas konciza kaŝslipeto de utila informaĵo pri tipoj kaj apartaĵoj, provizitaj de Bevy.
 
-The book has the following general chapters:
+La libro havas la sekvajn ĝeneralajn ĉapitrojn:
 
- - [Bevy Setup Tips][chapter::setup]: project setup advice, recommendations for tools and plugins
- - [Common Pitfalls][chapter::pitfalls]: solutions for common issues encountered by the community
- - [Bevy Programming Framework][chapter::programming]: how to write code in Bevy (foundational knowledge)
- - [Programming Patterns][chapter::patterns]: opinionated advice, patterns, idioms
- - [[WIP] Bevy Render (GPU) Framework][chapter::gpu]: working with the GPU and Bevy's rendering
- - [Bevy Cookbook][chapter::cookbook]: miscellaneous code examples beyond the ones in Bevy official repos
- - [Bevy on Different Platforms][chapter::platforms]: information about working with specific plaforms / OSs
+ - [Konsiloj pri Bevy Instalado][chapter::setup]: konsiloj pri projekt-instalado, rekomendaĵoj por iloj kaj kromaĵoj
+ - [Ĝeneralaj Kaptiloj][chapter::pitfalls]: solvaĵoj por generaj problemoj, kun kiuj la komunumo renkontis
+ - [Bevy Programada Enkadraĵo (Framework)][chapter::programming]: kiel skribi kodon en Bevy (fundamentaj scioj)
+ - [Programadaj Ŝablonoj][chapter::patterns]: opiniemaj konsiloj, ŝablonoj kaj idiomoj
+ - [[Nefinita] Bevy Bildiga (GPU) Enkadraĵo][chapter::gpu]: laborado kun la GPU kaj Bevy's bildigado (rendering)
+ - [Bevy Kuirlibro][chapter::cookbook]: diversaj kodekzemploj preter tiuj en Bevy oficialaj repostoj
+ - [Bevy en Diversaj Platformoj][chapter::platforms]: informaĵoj pri laborado kun certaj platformoj/operaciumoj
 
-The following chapters are focused on covering specific Bevy feature areas:
+La sekvaj ĉapitroj fokusiĝas sur kovrado de certaj sferoj de Bevy-apartaĵoj:
 
- - [Bevy Game Engine Core][chapter::features]: important features that don't belong in any other chapter
- - [Bevy Asset Management][chapter::assets]: working with data assets
- - [Input Handling][chapter::input]: working with different input devices
- - [Window Management][chapter::window]: working with the OS window
- - [Bevy 2D][chapter::2d]: Bevy's features for 2D games
- - [Bevy 3D][chapter::3d]: Bevy's features for 3D games
+ - [Kerno de Bevy Ludmotoro][chapter::features]: gravaj apartaĵoj, kiuj ne estas malkovritaj en ajn alia ĉapitro
+ - [Administrado de Valoraĵoj][chapter::assets]: laboro kun datumaj valoraĵoj
+ - [Eniga Priskribilo][chapter::input]: laboro kun diversaj enig-aparatoj
+ - [Administrado de Fenestroj][chapter::window]: laboro kun la operaciuma fenestro
+ - [Bevy 2D][chapter::2d]: Bevy apartaĵoj por 2D ludoj
+ - [Bevy 3D][chapter::3d]: Bevy apartaĵoj por 3D ludoj

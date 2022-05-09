@@ -1,83 +1,77 @@
-# New to Bevy? Guided Tutorial!
+# Ĉu komencanto en Bevy? Tute Gvidita Instrukcio!
 
 {{#include ./include/links.md}}
 
-Welcome to Bevy! :) We are glad to have you in our community!
+Bonvenon al Bevy! :) Ni ĝojas vidi vin en nia komunumo!
 
-Make sure to also look at [the official Bevy examples][bevy::examples]. If
-you need help, use [GitHub Discussions][bevy::ghdiscussions], or feel welcome
-to come chat and ask for help in [Discord][bevy::discord].
-
----
-
-This page is intended for new learners. It will guide you through this book in
-an order that makes sense for learning: from the basics, towards more advanced
-topics. This is unlike the main table-of-contents (the left sidebar), which
-was designed to be a reference for Bevy users of any skill level.
-
-This tutorial page does not list/link every page in the book. It is a guide
-to help you gain comprehensive general knowledge. The book also has many
-pages dedicated to solutions for specific problems; those are not listed here.
-
-Feel free to jump around the book and read whatever interests you.
-
-You will be making something cool with Bevy in no time! ;)
+Ankaŭ vd. [la oficialajn Bevy ekzemplojn][bevy::examples]. Se vi bezonas helpon, uzu [GitHub Diskutoj][bevy::ghdiscussions], aŭ ne timu
+eniri babilejon kaj demandi por helpo en [Diskordo][bevy::discord].
 
 ---
 
-If you run into issues, be sure to check the
-[Common Pitfalls][chapter::pitfalls] chapter, to see if this book has something
-to help you. Solutions to some of the most common issues that Bevy community
-members have encountered are documented there.
+Ĉi tiu paĝo estas por novaj lernantoj. Ĝi gvidos vin tra ĉi tiu libro en la ordo, kiu havas sencon studi, de la bazaĵoj ĝis la pli progresintaj temoj. Ĉi tio diferencas de la ĉefa enhavtabelo (maldekstra flanka kolumno), kiu estas celita esti uzata de Bevy-uzantoj de ĉiuj lertaj niveloj.
 
-## Basics
+Ĉi tiu instrukcio-paĝo ne listigas ĉiujn paĝojn de la libro. Ĉi tio estas gvidilo por helpi vin akiri ampleksan ĝeneralan scion. La libro ankaŭ havas multajn paĝojn, dediĉitajn al solvoj de specifaj problemoj, kiuj ne estas listigitaj ĉi tie.
+
+Sentu liberecon esplori la libron kaj legi ion ajn, kiu vin interesigas.
+
+Vi faros ion mojosan kun Bevy dum mallonga tempo! ;)
+
+---
+
+Se vi renkontas problemojn, vizitu la
+[Ĝeneralajn Kaptilojn][chapter::pitfalls] ĉapitro por vidi, ĉu ĉi tiu libro havas ion por helpi vin. Solvaĵoj al iuj el la plej oftaj problemoj de la komunumo de Bevy-membroj estas dokumentitaj tie.
+
+## Bazaĵoj
 
 These are the absolute essentials of using Bevy – the minimum concepts to
 get you started. Every Bevy project, even a simple one, would require you
 to be familiar with these concepts.
 
+Ĉi tiuj estas la absolutaj bazaĵoj de uzado de Bevy - la nura minimumo de konceptoj por komenci. Ĉiu projekto de Bevy, eĉ simpla, postulos, ke vi konatiĝu kun ĉi tiuj konceptoj.
+
 You could conceivably make something like a simple game-jam game or prototype,
 using just this knowledge. Though, as your project grows, you will likely
 quickly need to learn more.
 
- - [Bevy Setup Tips][chapter::setup]:
+Eble vi povus fari ion kiel simplan konkurs-ludon aŭ prototipon, uzante ĝuste tiun scion. Kvankam dum via projekto altiĝos, vi verŝajne devos lerni pli rapide.
+
+ - [Konsiloj pri Bevy Instalado][chapter::setup]:
    Configuring your development tools and environment
-   - [Getting Started][cb::getting-started]
- - [Bevy Programming Framework][chapter::programming]:
-   How to write Bevy code, structure your data and logic
-   - [Intro to ECS][cb::ecs-intro]
-   - [Entities and Components][cb::ec]
-   - [Resources][cb::res]
-   - [Systems][cb::system]
-   - [App Builder][cb::app]
-   - [Queries][cb::query]
-   - [Commands][cb::commands]
-   - [Events][cb::event]
- - [Bevy Game Engine Core][chapter::features]:
-   Basic features of Bevy, needed for making any game
-   - [Coordinate System][cb::coords]
-   - [Transforms][cb::transform]
-   - [Time and Timers][cb::time]
- - [Bevy Asset Management][chapter::assets]:
-   How to work with assets
-   - [Handles][cb::handle]
-   - [Load Assets with AssetServer][cb::assetserver]
- - [Input Handling][chapter::input]:
-   Using various input devices
- - [Window Management][chapter::window]:
-   Setting up the OS Window (or fullscreen) for your game
-   - [Change the Background Color][cb::clearcolor]
+   - [Komencante][cb::getting-started]
+ - [Bevy Programada Enkadraĵo (Framework)][chapter::programming]:
+   Kiel skribi Bevy-kodon, strukturi viajn datumojn kaj logikon
+   - [Enkonduko al EKS][cb::ecs-intro]
+   - [Entoj kaj Komponantoj][cb::ec]
+   - [Risurcoj][cb::res]
+   - [Sistemoj][cb::system]
+   - [Aplikaĵa Konstruilo][cb::app]
+   - [Informpetoj][cb::query]
+   - [Komandoj][cb::commands]
+   - [Eventoj][cb::event]
+ - [Kerno de Bevy Ludmotoro][chapter::features]:
+   Bazaj apartaĵoj de Bevy, bezonataj por krei iun ajn ludon
+   - [Koordinata Sistemo][cb::coords]
+   - [Transformoj][cb::transform]
+   - [Tempo kaj Tempigiloj][cb::time]
+ - [Administrado de Valoraĵoj][chapter::assets]:
+   Kiel labori kun valoraĵoj (assets)
+   - [Priskribiloj (Handles)][cb::handle]
+   - [Elŝuti Valoraĵojn el Dosieroj][cb::assetserver]
+ - [Eniga Priskribilo][chapter::input]:
+   Uzado de diversaj enigaj aparatoj
+ - [Administrado de Fenestroj][chapter::window]:
+   Instalado de la operaciuma fenestro (aŭ plenekrano) por via ludo
+   - [Ŝanĝo la Fonkoloron][cb::clearcolor]
 
-## Next Steps
+## Sekvaj Paŝoj
 
-You will likely need to learn about at least some of these topics, to make
-a non-trivial Bevy project. After you are confident with the basics, you
-can familiarize yourself with these, to become a proficient Bevy user.
+Vi verŝajne bezonos ekscii almenaŭ kelkajn el ĉi tiuj temoj por krei ne-trivialan Bevy-projekton. Post kiam vi estos komforta kun la bazaĵoj, vi povos konatiĝi kun ili por fariĝi potenca uzanto de Bevy.
 
- - [Bevy Setup Tips][chapter::setup]
+ - [Konsiloj pri Bevy Instalado][chapter::setup]
    - [Bevy Dev Tools and Editors][cb::tools]
    - [Community Plugin Ecosystem][cb::3rdparty]
- - [Bevy Programming Framework][chapter::programming]
+ - [Bevy Programada Enkadraĵo (Framework)][chapter::programming]
    - [System Order of Execution][cb::system-order]
    - [System Sets][cb::systemset]
    - [Local Resources][cb::local]
@@ -87,18 +81,17 @@ can familiarize yourself with these, to become a proficient Bevy user.
    - [Change Detection][cb::change-detection]
    - [Query Sets][cb::queryset]
    - [Stages][cb::stage]
- - [Programming Patterns][chapter::patterns]
+ - [Programadaj Ŝablonoj][chapter::patterns]
    - [Generic Systems][cb::system-generic]
    - [Component Storage][cb::component-storage]
- - [Bevy Asset Management][chapter::assets]:
+ - [Administrado de Valoraĵoj][chapter::assets]:
    - [Access the Asset Data][cb::asset-data]
    - [React to Changes with Asset Events][cb::assetevent]
    - [Hot-Reloading Assets][cb::asset-hotreload]
 
-## Advanced
+## Progresinta Nivelo
 
-These are more specialized topics, may be useful in complex projects. Most
-typical Bevy users are unlikely to need to know these.
+Ĉi tiuj estas pli fakaj temoj, kiuj povas esti utilaj en kompleksaj projektoj. Plej tipaj uzantoj de Bevy ne bezonos scii ĉi tion.
 
  - [Bevy Programming Framework][chapter::programming]
    - [Run Criteria][cb::runcriteria]
@@ -110,10 +103,10 @@ typical Bevy users are unlikely to need to know these.
  - [Programming Patterns][chapter::patterns]
    - [Manual Event Clearing][cb::event-manual]
 
-## Solutions to Specific Problems
+## Solvaĵoj por Specifaj Problemoj
 
-These are pages that teach you solutions to specific tasks that you might
-encounter in your project.
+Ĉi tiuj estas paĝoj, kiuj instruas vin kiel solvi specifajn problemojn, kiujn vi eble
+renkontiĝu en via projekto.
 
  - [Convert cursor to world coordinates][cookbook::cursor2world]
  - [Write tests for systems][cb::system-tests]

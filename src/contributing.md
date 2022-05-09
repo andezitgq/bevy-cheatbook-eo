@@ -1,103 +1,76 @@
-# Contributing
+# Kontribuado
 
 {{#include ./include/links.md}}
 
-Be civil. If you need a code of conduct, have a look at Bevy's.
+Estu ĝentila. Se vi bezonas kondutkodon, rigardu tiun de Bevy.
 
-If you have any suggestions for the book, such as ideas for new content, or
-if you notice anything that is incorrect or misleading, please file issues in
-[the GitHub repository][project::cb]!
+Se vi havas sugestojn por la libro, kiel ideojn por nova enhavo, aŭ se vi rimarkas ion malĝustan aŭ misgvida, bonvolu registri problemojn en la [deponejo de GitHub][project::cb]!
 
-## Contributing Code
+## Kod-kontribuado
 
-If you simply want to contribute code examples to the book, feel free to
-make a PR. I can take care of writing the book text / page that your code
-will be displayed on.
+Se vi simple volas kontribui kodekzemplojn al la libro, ne timi fari memreklamon! Mi povas zorgi pri skribo de la libroteksto / paĝo, en kiu via kodo
+estos montrata.
 
-### Cookbook Examples
+### Kuirlibraj Ekzemploj
 
-The code for cookbook examples should be provided as a full, runnable,
-example file, under `src/code/examples`. The book page will only show the
-relevant parts of the code, without unnecessary boilerplate.
+La kodo por kuirlibraj ekzemploj devas esti provizita kiel plena, lanĉebla ekzempla dosiero en `src/code/examples` vojo. La libropaĝo nur montros la konvenajn partojn de la kodo sen malnecesa kaldrono.
 
 Always use [mdbook anchor syntax][mdbook::anchor-syntax], not line numbers,
 to denote the parts of the code to be shown on the page.
 
-### Credits
+Ĉiam uzu [mdbook ankro-sintakson][mdbook::anchor-syntax]
 
-If you contribute a cookbook example, I will credit you in the book by your
-github username with a link to the PR. Please let me know if you prefer not
-to be credited, or if you would like to be credited in another way (but no
-commercial self-promotion allowed).
+### Aŭtor-mencioj
 
-## Contributing Book Text
+Se vi kontribuos ekzemplon por [Originala Kuirlibro](https://bevy-cheatbook.github.io/cookbook.html), la aŭtoro mencios vin en la libro per via GitHub-uzantnomo kaj la ligilo.
 
-I do not directly merge book text written by other people. This is because
-I want the book to follow a consistent editorial style.
+## Kontribuado al Libroteksto
 
-If you would like to write new content for the book, feel free to make a
-PR with the content to be included, but note that it will likely not be
-preserved exactly as you wrote it.
+La aŭtoro ne kunigas direkte la librotekston, verkitan de aliaj homoj. Ĉi tio estas ĉar mi deziras konservi certan redaktistan stilon.
 
-I will likely merge it into a temporary branch and then edit or rewrite it
-as I see fit, for publishing into the book.
+Se vi dezirus verki novan enhavon por la libro, ne timu fari reklamon kun la inkludita enhavo, sed notu, ke ĝi verŝajne ne estos konservita samkiel vi skribis ĝin.
 
-## Licensing
+## Licencado
 
-To avoid complications with copyright and licensing, you agree to provide
-any contributions you make to the project under the [MIT-0 No Attribution
-License](https://github.com/bevy-cheatbook/mit-0).
+Por eviti komplikaĵojn kun kopirajto kaj licencado, vi konsentas provizi ajnajn kontribuojn, kiujn vi faras al la projekto per la [MIT-0 Malatribua Permesilo](https://github.com/bevy-cheatbook/mit-0).
 
-Note that this allows your work to be relicensed without preserving your
-copyright.
+Atentu, ke ĝi rajtigas ne konservi kopirajton de via laboro dum relicencado.
 
-As described previously, the actual published content in the book will be my
-own derivative work based on your contributions. I will license it consistently
-with the rest of the book; see: [License](./introduction.md#license).
+Kiel estis priskribita antaŭe, la reala publikigita enhavo en la libro estas propra derivita laboro de la libraŭtoro, bazita sur viaj kontribuoj. Vd. la [licencon](./introduction.md#permesilo).
 
-## Bevy version
+## Bevy versio
 
-Content written for the current Bevy release, is accepted for the `main`
-branch of the book.
+Enhavo, verkita por la nuna eldono de Bevy, estas akceptita por la `main` branĉo de la originala libro.
 
-Content written for new developments in Bevy's main branch, is accepted for the
-`next` branch of the book, in preparation for the next upcoming Bevy release.
+Enhavo, verkita por novaj disvolvaĵoj en la ĉefa branĉo de Bevy, estas akceptita por la `next` branĉo de la originala libro, en preparo por la venonta Bevy-eldono.
 
-## Style Guidelines
+## Stil-gvidaĵo
 
-Aim for simplicity and minimalism. Do not include things irrelevant to
-getting the point across.
+- Celu simplecon kaj minimumismon. Ne skribu pri maloportunaj kaj senrilataj aferoj.
+ 
+- Perfekteco estas atingita ne kiam estas nenio por aldoni, sed kiam estas nenio por forigi.
 
-"Perfection is achieved not when there is nothing more to add, but when
-there is nothing more to remove."
+- Ne forgesu indiki potencialajn erarojn kaj aliajn gravajn praktikajn konsiderojn.
 
-Don't forget to point out potential gotchas and other relevant practical
-considerations.
-
-Try to use the most common/standard terminology and keywords, to make things
-easy to find. Don't come up with new/extra terminology of your own.
-
-Avoid repeating information found elsewhere in the book, prefer linking to
+- Penu uzi la plej ofte uzantajn terminologion kaj ĉefvortojn por igi aferojn facile troveblaj. Ne elpensu novan/kroman terminologion mem.
 it instead.
 
-### Code Style
+- Evitu ripetadon de informoj, trovitaj aliloke en la libro, anstataŭe provizu ligon al ĝi.
 
-Avoid long lines of code, to keep it readable on small screens.
+### Koda stilo
 
-Use reasonable formatting that does not deviate much from the common
-conventions used by the Rust language community. I don't enforce it strictly;
-there is no need to use `rustfmt`. If deviating from those standards allows
-for the code to be presented better in the context of the book, then doing
-so is preferable.
+Evitu longajn liniojn de kodo por legebligi ĝin en malgrandaj ekranoj.
 
-### Text Style
+Uzu prudentan formatadon, kiu ne multe distingiĝas de la ĝenerale akceptitaj konvencioj, uzataj de la Rustlingva komunumo. Sed ne estas necese uzi na `rustfmt`. Se devio de ĉi tiuj normoj permesas pli bone prezenti la kodon en la kunteksto de la libro, tiam tio estas preferinda.
 
-Make it easy to read.
+### Teksta stilo
 
-- Be brief. Try to cover all important information without verbose explanations.
-- Prefer simple English with short sentences.
-- Avoid information overload:
-  - Split things into short paragraphs.
-  - Avoid introducing many (even if related) topics at the same time.
-  - Cover advanced usage separately from the basics.
+Farigu ĝin facila por legado:
+
+- Estu lakona. Provu kovri ĉiujn gravajn informojn sen detalaj klarigoj.
+- Preferu simplan lingvon kun mallongaj frazoj.
+- Evitu informan troŝarĝon:
+  - Dividu aferojn en mallongajn alineojn.
+  - Evitu diskuti multajn (eĉ rilatajn) temojn samtempe.
+  - Diskutu progresintan uzadon aparte de bazaĵoj.
 
