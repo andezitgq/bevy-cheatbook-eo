@@ -308,13 +308,13 @@ Instalado de la operaciuma fenestro (aŭ plenekrano) por via ludo
 <h2 id="sekvaj-paŝoj"><a class="header" href="#sekvaj-paŝoj">Sekvaj Paŝoj</a></h2>
 <p>Vi verŝajne bezonos ekscii almenaŭ kelkajn el ĉi tiuj temoj por krei ne-trivialan Bevy-projekton. Post kiam vi estos komforta kun la bazaĵoj, vi povos konatiĝi kun ili por fariĝi potenca uzanto de Bevy.</p>
 <ul>
-<li><a href="/setup.html">Bevy Setup Tips</a>
+<li><a href="/setup.html">Konsiloj pri Bevy Instalado</a>
 <ul>
 <li><a href="/setup/bevy-tools.html">Bevy Dev Tools and Editors</a></li>
 <li><a href="/setup/unofficial-plugins.html">Community Plugin Ecosystem</a></li>
 </ul>
 </li>
-<li><a href="/programming.html">Bevy Programming Framework</a>
+<li><a href="/programming.html">Bevy Programada Enkadraĵo (Framework)</a>
 <ul>
 <li><a href="/programming/system-order.html">System Order of Execution</a></li>
 <li><a href="/programming/system-sets.html">System Sets</a></li>
@@ -327,13 +327,13 @@ Instalado de la operaciuma fenestro (aŭ plenekrano) por via ludo
 <li><a href="/programming/stages.html">Stages</a></li>
 </ul>
 </li>
-<li><a href="/patterns.html">Programming Patterns</a>
+<li><a href="/patterns.html">Programadaj Ŝablonoj</a>
 <ul>
 <li><a href="/patterns/generic-systems.html">Generic Systems</a></li>
 <li><a href="/patterns/component-storage.html">Component Storage</a></li>
 </ul>
 </li>
-<li><a href="/assets.html">Bevy Asset Management</a>:
+<li><a href="/assets.html">Administrado de Valoraĵoj</a>:
 <ul>
 <li><a href="/assets/data.html">Access the Asset Data</a></li>
 <li><a href="/assets/assetevent.html">React to Changes with Asset Events</a></li>
@@ -341,9 +341,8 @@ Instalado de la operaciuma fenestro (aŭ plenekrano) por via ludo
 </ul>
 </li>
 </ul>
-<h2 id="advanced"><a class="header" href="#advanced">Advanced</a></h2>
-<p>These are more specialized topics, may be useful in complex projects. Most
-typical Bevy users are unlikely to need to know these.</p>
+<h2 id="progresinta-nivelo"><a class="header" href="#progresinta-nivelo">Progresinta Nivelo</a></h2>
+<p>Ĉi tiuj estas pli fakaj temoj, kiuj povas esti utilaj en kompleksaj projektoj. Plej tipaj uzantoj de Bevy ne bezonos scii ĉi tion.</p>
 <ul>
 <li><a href="/programming.html">Bevy Programming Framework</a>
 <ul>
@@ -361,9 +360,9 @@ typical Bevy users are unlikely to need to know these.</p>
 </ul>
 </li>
 </ul>
-<h2 id="solutions-to-specific-problems"><a class="header" href="#solutions-to-specific-problems">Solutions to Specific Problems</a></h2>
-<p>These are pages that teach you solutions to specific tasks that you might
-encounter in your project.</p>
+<h2 id="solvaĵoj-por-specifaj-problemoj"><a class="header" href="#solvaĵoj-por-specifaj-problemoj">Solvaĵoj por Specifaj Problemoj</a></h2>
+<p>Ĉi tiuj estas paĝoj, kiuj instruas vin kiel solvi specifajn problemojn, kiujn vi eble
+renkontiĝu en via projekto.</p>
 <ul>
 <li><a href="/cookbook/cursor2world.html">Convert cursor to world coordinates</a></li>
 <li><a href="/programming/system-tests.html">Write tests for systems</a></li>
@@ -810,17 +809,15 @@ Text to be displayed</li>
 <li>In the render <a href="/programming/sub-apps.html">sub-app</a> (<a href="https://docs.rs/bevy/0.7.0/bevy/render/enum.RenderStage.html"><code>RenderStage</code></a>):
 <code>Extract</code>, <code>Prepare</code>, <code>Queue</code>, <code>PhaseSort</code>, <code>Render</code>, <code>Cleanup</code></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="bevy-setup-tips"><a class="header" href="#bevy-setup-tips">Bevy Setup Tips</a></h1>
-<p>This chapter is a collection of additional tips for configuring
-your project or development tools, collected from the Bevy
-community, beyond what is covered in Bevy's <a href="https://bevyengine.org/learn/book/getting-started/setup/">official setup
-documentation</a>.</p>
-<p>Feel free to suggest things to add under this chapter.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="konsiloj-pri-bevy-instalado"><a class="header" href="#konsiloj-pri-bevy-instalado">Konsiloj pri Bevy Instalado</a></h1>
+<p>Ĉi tiu ĉapitro estas kolekto de aldonaj konsiletoj por agordi vian projekton aŭ disvolvilojn, kolektitajn de la Bevy-komunumo, krom tiuj, kiuj estas kovritaj en Bevy <a href="https://bevyengine.org/learn/book/getting-started/setup/">oficialan instal-dokumentaĵo</a>.</p>
+<p>Feel free to suggest things to add under this chapter.
+Ne timu sugesti aldoni aferojn sub ĉi tiu ĉapitro.</p>
 <hr />
-<p>Also see the following other relevant content from this book:</p>
+<p>Ankaŭ vd. la sekvan alian oportunan enhavon el ĉi tiu libro:</p>
 <ul>
-<li><a href="/platforms.html">Platform-specific information</a></li>
-<li><a href="/pitfalls/performance.html">Configuration to fix slow performance</a></li>
+<li><a href="/platforms.html">Bevy en Diversaj Platformoj</a></li>
+<li><a href="/pitfalls/performance.html">Kiel ripari malrapidan plenumecon</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="getting-started"><a class="header" href="#getting-started">Getting Started</a></h1>
 <p>This page covers the basic setup needed for Bevy development.</p>
@@ -6529,6 +6526,22 @@ it instead.</p>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
