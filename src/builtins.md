@@ -1,27 +1,26 @@
-# List of Bevy Builtins
+# Listo de Bevy Enkostruĵoj
 
 {{#include ./include/links.md}}
 
-This page is a quick condensed listing of all the important things provided
-by Bevy.
+Ĉi tiu pago estas rapide densigita listo de ĉiuj gravaj aferoj, provizitaj per Bevy
 
- - [SystemParams](#systemparams)
- - [Assets](#assets)
- - [File Formats](#file-formats)
- - [`wgpu` Backends](#wgpu-backends)
- - [Bundles](#bundles)
- - [Resources (Configuration)](#configuration-resources)
- - [Resources (Engine User)](#engine-resources)
- - [Resources (Input)](#input-handling-resources)
- - [Events (Input)](#input-events)
- - [Events (System/Control)](#system-and-control-events)
- - [Components](#components)
- - [GLTF Asset Labels](#gltf-asset-labels)
- - [Stages](#stages)
+ - [SistemParametroj](#systemparams)
+ - [Valoraĵoj (Assets)](#assets)
+ - [Dosieraj Formatoj](#file-formats)
+ - [`wgpu` Bibliotekoj](#wgpu-backends)
+ - [Pakoj (Bundles)](#bundles)
+ - [Risurcoj (Agordo)](#configuration-resources)
+ - [Risurcoj (Motoro)](#engine-resources)
+ - [Risurcoj (Enigo)](#input-handling-resources)
+ - [Eventoj (Enigo)](#input-events)
+ - [Eventoj (Sistemo/Kontrolo)](#system-and-control-events)
+ - [Komponantoj](#components)
+ - [GLTF Valoraĵaj Titoloj](#gltf-asset-labels)
+ - [Etapoj](#stages)
 
-## SystemParams
+## SistemParametroj
 
-These are all the special types that can be used as [system][cb::system] parameters.
+Ĉi tiuj estas la specialaj tipoj, kiujn oni povas uzi kiel [sistemaj][cb::system] parametroj.
 
 {{#include ./include/builtins.md:systemparams}}
 

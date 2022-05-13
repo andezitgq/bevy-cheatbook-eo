@@ -1,17 +1,17 @@
-## GPU Drivers
+## GPU Peliloj
 
-On Linux, Bevy currently requires Vulkan for graphics.
+En Linukso, Bevy nuntempe postulas na Vulkan por grafikaĵoj.
 
-On Windows, either Vulkan or DirectX 12 can be used.
+En Vindozo, kaj Vulkan kaj DirectX 12 povas esti uzataj.
 
-Make sure you have compatible hardware and drivers installed on your system.
-Your users will also need to satisfy this requirement.
+Certigu, ke vi havas kongruajn aparataron kaj pelilojn, instalitajn en via sistemo.
+Viaj uzantoj ankaŭ devos kontentigi ĉi tiun postulon.
 
-If Bevy is not working, install the latest drivers, or check with your Linux
-distribution whether Vulkan needs additional packages to be installed.
+Se Bevy ne funkcias, instalu la plej novajn pelilojn aŭ kontrolu, ĉu Vulkan en via Linuksa
+distribuo bezonas pliajn pakaĵojn.
 
-OpenGL and DirectX 11 support for legacy systems is planned, but not available yet.
+Subteno De OpenGL kaj DirectX 11 por heredaj sistemoj estas planita, sed ankoraŭ ne havebla.
 
-macOS should work without any special driver setup, using Metal.
+macOS devus funkcii sen speciala pelil-agordo, uzante na Metal.
 
-Web games are supported and should work in any modern browser, using WebGL2.
+Retaj ludoj estas subtenataj kaj devus funkcii en iu ajn moderna retumilo, uzante WebGL2.

@@ -24,20 +24,11 @@ Se vi renkontas problemojn, vizitu la
 
 ## Bazaĵoj
 
-These are the absolute essentials of using Bevy – the minimum concepts to
-get you started. Every Bevy project, even a simple one, would require you
-to be familiar with these concepts.
-
 Ĉi tiuj estas la absolutaj bazaĵoj de uzado de Bevy - la nura minimumo de konceptoj por komenci. Ĉiu projekto de Bevy, eĉ simpla, postulos, ke vi konatiĝu kun ĉi tiuj konceptoj.
-
-You could conceivably make something like a simple game-jam game or prototype,
-using just this knowledge. Though, as your project grows, you will likely
-quickly need to learn more.
 
 Eble vi povus fari ion kiel simplan konkurs-ludon aŭ prototipon, uzante ĝuste tiun scion. Kvankam dum via projekto altiĝos, vi verŝajne devos lerni pli rapide.
 
- - [Konsiloj pri Bevy Instalado][chapter::setup]:
-   Configuring your development tools and environment
+ - [Konsiloj pri Bevy Instalado][chapter::setup]: Agordado de viaj ellaboliroj kaj medio
    - [Komencante][cb::getting-started]
  - [Bevy Programada Enkadraĵo (Framework)][chapter::programming]:
    Kiel skribi Bevy-kodon, strukturi viajn datumojn kaj logikon
@@ -69,50 +60,50 @@ Eble vi povus fari ion kiel simplan konkurs-ludon aŭ prototipon, uzante ĝuste 
 Vi verŝajne bezonos ekscii almenaŭ kelkajn el ĉi tiuj temoj por krei ne-trivialan Bevy-projekton. Post kiam vi estos komforta kun la bazaĵoj, vi povos konatiĝi kun ili por fariĝi potenca uzanto de Bevy.
 
  - [Konsiloj pri Bevy Instalado][chapter::setup]
-   - [Bevy Dev Tools and Editors][cb::tools]
-   - [Community Plugin Ecosystem][cb::3rdparty]
+   - [Ellaboriloj kaj Redaktiloj por Bevy][cb::tools]
+   - [Ekosistemo de Komunumaj Kromaĵoj][cb::3rdparty]
  - [Bevy Programada Enkadraĵo (Framework)][chapter::programming]
-   - [System Order of Execution][cb::system-order]
-   - [System Sets][cb::systemset]
-   - [Local Resources][cb::local]
-   - [Plugins][cb::plugin]
-   - [Labels][cb::label]
-   - [States][cb::state]
-   - [Change Detection][cb::change-detection]
-   - [Query Sets][cb::queryset]
-   - [Stages][cb::stage]
+   - [Sistema Ordo de Plenumado][cb::system-order]
+   - [Sistemaj Aroj][cb::systemset]
+   - [Lokaj Risurcoj][cb::local]
+   - [Kromaĵoj][cb::plugin]
+   - [Titoloj][cb::label]
+   - [Statoj][cb::state]
+   - [Detekto de Ŝanĝo][cb::change-detection]
+   - [Parametraj Aroj][cb::queryset]
+   - [Etapoj][cb::stage]
  - [Programadaj Ŝablonoj][chapter::patterns]
-   - [Generic Systems][cb::system-generic]
-   - [Component Storage][cb::component-storage]
+   - [Generaj Sistemoj][cb::system-generic]
+   - [Komponanta Stokaĵo][cb::component-storage]
  - [Administrado de Valoraĵoj][chapter::assets]:
-   - [Access the Asset Data][cb::asset-data]
-   - [React to Changes with Asset Events][cb::assetevent]
-   - [Hot-Reloading Assets][cb::asset-hotreload]
+   - [Atingo al la Valoraĵ-datumo][cb::asset-data]
+   - [Reagi al Ŝanĝoj kun Valoraĵ-eventoj][cb::assetevent]
+   - [Tuj-Reŝargo de Valoraĵoj][cb::asset-hotreload]
 
 ## Progresinta Nivelo
 
 Ĉi tiuj estas pli fakaj temoj, kiuj povas esti utilaj en kompleksaj projektoj. Plej tipaj uzantoj de Bevy ne bezonos scii ĉi tion.
 
- - [Bevy Programming Framework][chapter::programming]
-   - [Run Criteria][cb::runcriteria]
-   - [Removal Detection][cb::removal-detection]
-   - [System Chaining][cb::system-chain]
-   - [Direct World Access][cb::world]
-   - [Exclusive Systems][cb::exclusive]
-   - [Non-Send][cb::nonsend]
- - [Programming Patterns][chapter::patterns]
-   - [Manual Event Clearing][cb::event-manual]
+ - [Bevy Programada Enkadraĵo (Framework)][chapter::programming]
+   - [Lanĉaj Kriterioj][cb::runcriteria]
+   - [Detekto de Forigo][cb::removal-detection]
+   - [Sistema Ligado][cb::system-chain]
+   - [Direkta Atingo al EKS-Mondo][cb::world]
+   - [Ekskluzivaj Sistemoj][cb::exclusive]
+   - [Nesendaj Risurcoj][cb::nonsend]
+ - [Programadaj Ŝablonoj][chapter::patterns]
+   - [Permana Event-Malplenigo][cb::event-manual]
 
 ## Solvaĵoj por Specifaj Problemoj
 
 Ĉi tiuj estas paĝoj, kiuj instruas vin kiel solvi specifajn problemojn, kiujn vi eble
 renkontiĝu en via projekto.
 
- - [Convert cursor to world coordinates][cookbook::cursor2world]
- - [Write tests for systems][cb::system-tests]
- - [Track asset loading progress][cb::asset-ready]
- - [Grab/Capture the Mouse Cursor][cookbook::mouse-grab]
- - [Set the Window Icon][cookbook::window-icon]
- - [Input Text][input::char]
- - [Drag-and-Drop files][input::dnd]
- - [Custom Camera Projection][cookbook::cursor2world]
+ - [Konverti kursoron en mondajn koordinatojn][cookbook::cursor2world]
+ - [Kreado de Testoj por Sistemoj][cb::system-tests]
+ - [Observi Elŝut-progreson][cb::asset-ready]
+ - [Kapti la Muskursoron][cookbook::mouse-grab]
+ - [Difini la Fenestran Ikoneton][cookbook::window-icon]
+ - [Enigo de Teksto][input::char]
+ - [Treni-k-faligi dosierojn][input::dnd]
+ - [Propra Projekcio de Kamerao][cookbook::cursor2world]

@@ -98,7 +98,7 @@
   - [Ekskluzivaj Sistemoj](./programming/exclusive.md)
   - [[Nefinita] Sub-Aplikaĵoj](./programming/sub-apps.md)
   - [Nesendaj Risurcoj](./programming/non-send.md)
-  - [Skribado de Testoj por Sistemoj](./programming/system-tests.md)
+  - [Kreado de Testoj por Sistemoj](./programming/system-tests.md)
 
 - [Programadaj Ŝablonoj](./patterns.md)
   - [Generaj Sistemoj](./patterns/generic-systems.md)

@@ -1,41 +1,37 @@
-# Getting Started
+# Komencante
 
 {{#include ../include/links.md}}
 
-This page covers the basic setup needed for Bevy development.
+Ĉi tiu paĝo kovras la bazan agordadon, bezonan por Bevy-ellaborado.
 
 ---
 
-For the most part, Bevy is just like any other Rust library. You need to
-install Rust and setup your dev environment just like for any other Rust
-project. You can install Rust using [Rustup][rustup]. See
-[Rust's official setup page][rust::getting-started].
+Plejparte, Bevy estas sama, kiel iu ajn alia Rust-biblioteko. Vi bezonas
+instali na Rust kaj agordi vian ellaborad-medion. Vi povas instali Rust, uzante [Rustup][rustup]. Vidu
+[La oficialan agordan paĝon de Rust][rust::getting-started].
 
-On Linux, you need the development files for some system libraries. See the
-[official Bevy Linux dependencies page][bevy::linux-dependencies].
+En Linukso, vi bezonas la ellaborad-dosierojn por kelkaj sistemaj bibliotekoj. Vd. la
+[oficialan Bevy Linuks-dependaĵan paĝon][bevy::linux-dependencies].
 
-Also see the [Setup page in the official Bevy Book][bevy::getting-started]
-and the [official Bevy Readme][bevy::readme].
+Ankaŭ vd. la [Agordan paĝon en la oficiala Bevy Libro][bevy::getting-started] kaj la [oficialan Bevy Readme (Leguminaĵon)][bevy::getting-started]
 
 {{#include ../include/gpu-driver-requirements.md}}
 
-## Creating a New Project
+## Kreado de Nova Projekto
 
-You can simply create a new Rust project, either from your IDE/editor, or the commandline:
+Vi povas simple krei novan Rust-projekton aŭ pre via Redaktilo, aŭ per la Terminalo:
 
 ```sh
-cargo new --bin my_game
+cargo new --bin mia_ludo
 ```
 
-(creates a project called `my_game`)
+(ĝi kreas projekton, nomita `mia_ludo`)
 
-The `Cargo.toml` file contains all the configuration of your project.
-Add the latest version of `bevy` as a dependency. Your file should now
-look something like this:
+La `Cargo.toml` dosiero enhavas ĉiu agordaĵon de via projekto. Aldonu la lastan version de `bevy` kiel dependaĵo. Via dosiero nun aspektas kiel ĉi tio:
 
 ```toml
 [package]
-name = "my_game"
+name = "mia_ludo"
 version = "0.1.0"
 edition = "2021"
 
@@ -43,50 +39,38 @@ edition = "2021"
 bevy = "0.7"
 ```
 
-The `src/main.rs` file is your main source code file. This is where you start
-writing your Rust code. For a minimal Bevy app, you need at least the following:
+La `src/main.rs` estas via ĉefa	fontkoda dosiero. Ĉi tie vi komencas skribi vian Rust-kodon. Por minimuma Bevy-aplikaĵo vi bezonas almenaŭ sekvantan:
 
 ```rust,no_run,noplayground
 {{#include ../code/examples/minimal.rs}}
 ```
 
-You can now compile and run your project. The first time, this will take a
-while, as it needs to build the whole Bevy engine and dependencies. Subsequent
-runs should be fast. You can do this from your IDE/editor, or the commandline:
+Vi povas nun kompili kaj lanĉi vian projekton. Unufoje daŭros iom da tempo, ĉar vi devas kompili tutan Bevy-motoron kaj dependaĵojn. Sekvaj kompiladoj devas esti pli rapidaj. Vi povas ankaŭ fari tion el via Redaktilo aŭ Terminalo:
 
 ```sh
 cargo run
 ```
 
-## Optional Extra Setup
+## Plia Agordado
 
-You will likely quickly run into unusably slow performance with the default
-Rust unoptimized dev builds. [See here how to fix.][pitfall::perf]
+Vi verŝajne renkontos kun maluzebla malrapida plenumeco en defaŭltaj neoptimigitaj Rust-konstruaĵoj. [Vd. kiel ripari ĉi tion][pitfall::perf]
 
-Also, iterative recompilation speed is important to keep you productive,
-so you don't have to wait long for the Rust compiler to rebuild your
-project every time you want to test your game. [Bevy's getting started
-page][bevy::getting-started] has advice about how to speed up compile times.
+Ankaŭ, ripeta rekompila rapideco estas grava por teni vin produktiva,
+tial vi ne devas atendi longe, ke la Rust-kompililo rekompilu vian
+projekton ĉiufoje, kiam vi deziras testi vian ludon. [Bevy komencant-paĝo][bevy::getting-started] havas konsilon pri kiel plirapidigi kompiltempon.
 
-Also have a look in the [Dev Tools and Editors][cb::tools] page for suggestions
-about additional external dev tools that may be helpful.
+Ankaŭ vd. [Ellaboriloj kaj Redaktiloj][cb::tools] paĝon por sugestoj pri pliaj eksteraj ellaboriloj, kiuj povus esti utilaj.
 
-## What's Next?
+## Kio estas plu?
 
-Have a look at the [guided tutorial][chapter::tutorial] page of this book,
-and Bevy's [official examples][bevy::examples].
+Vidu [gviditan instrukcion][chapter::tutorial] de ĉi tiu libro kaj [oficialajn ekzemplojn][bevy::examples] de Bevy.
 
-Check out the [Bevy Assets Website][bevy::assets] to find other tutorials
-and learning resources from the community, and plugins to use in your project.
+Vizitu la [Bevy Valoraĵ-retejon][bevy::assets] por trovi aliajn lernilojn kaj lern-risurcojn de la komunumo, ankaŭ kromaĵojn por uzi en via projekto.
 
-Join the community on [Discord][bevy::discord] to chat with us!
+Aliĝu al la komunumo en [Diskordo][bevy::discord] por babili kun ni!
 
-## Running into Issues?
+## Ĉu vi havas problemojn?
 
-If something is not working, be sure to check the [Common
-Pitfalls][chapter::pitfalls] chapter, to see if this book has something to
-help you. Solutions to some of the most common issues that Bevy community
-members have encountered are documented there.
+Se io ne funkcias, vizitu [Ĝeneralajn Kaptilojn][chapter::pitfalls] por vidi, ĉu la libro havas ion por helpi vin. Ĝi dokumentas solvadojn al kelkaj el la plej oftaj problemoj, kiujn renkontis membroj de la Bevy-komunumo.
 
-If you need help, use [GitHub Discussions][bevy::ghdiscussions], or feel
-welcome to come chat and ask for help in [Discord][bevy::discord].
+Se vi bezonas helpon, uzu [GitHub-diskutojn][bevy::ghdiscussions] aŭ vizitu la babilejon kaj demandi por helpo en [Diskordo][bevy::discord].

@@ -1,79 +1,48 @@
-# ECS as a Data Structure
+# EKS kiel Datuma Strukturo
 
 {{#include ../include/links.md}}
 
-Relevant official examples:
+Aktualaj oficialaj ekzemploj:
 [`ecs_guide`][example::ecs_guide].
 
-Also check out the complete game examples:
+Ankaŭ vizitu finitajn ludekzemplojn:
 [`alien_cake_addict`][example::alien_cake_addict],
 [`breakout`][example::breakout].
 
 ---
 
-Bevy konservas and kontrolas ĉiun vian datumon por vi, uzante na la Bevy EKS
+Bevy konservas kaj kontrolas tutan vian datumon por vi, uzante na la Bevy EKS
 (Ent-Komponanta Sistemo).
 
-Conceptually, you can think of it by analogy with tables, like in a database
-or spreadsheet. Your different data types (Components) are like the "columns"
-of a table, and there can be arbitrarily many "rows" (Entities) containing
-values / instances of each component.
+Koncipe vi povas pensi pri ĉi tio kiel pri tabeloj, kvazaŭ en datumbazo. Viaj diversaj datumtipoj (Komponantoj) estas kiel "kolonoj" de tabelo, kie povas ekzisti arbitre multaj "vicoj" (Entoj), enhavantaj valorojn de ĉiu komponanto.
 
-For example, you could create a `Health` component for your game. You could
-then have many entities representing different things in your game, such
-as the player, NPCs, or monsters, all of which can have a `Health` value
-(as well as other relevant components).
+Ekzemple, vi povas krei `Health` komponanton por via ludo. Tiam vi povas havi multajn entojn, prezentantajn malsamajn aferojn en via ludo, kiel ludanto, NLRoj (Ne Ludantaj Roluloj), aŭ monstroj, ĉiuj el kiuj povas havi `Health` valoron (samkiel aliajn signifajn komponantojn).
 
-This makes it easy to write game logic ([Systems][cb::system]) that can
-operate on any entity with the necessary components (such as a health/damage
-system for anything that has `Health`), regardless of whether that's the
-player, an NPC, or a monster (or anything else). This makes your game logic
-very flexible and reusable.
+Ĝi faciligas krei ludan logikon ([Sistemoj][cb::system]), kiu povas funkcii kun iu ento kun necesaj komponantoj (kiel sano-damaĝa sistemo por ĉio, kio havas na `Health`), sendepende de tio, ĉu ĝi estas la ludanto, NLR aŭ monstro (aŭ io ajn). Ĉi tio farigas vian ludlogikon tre reuzebla kaj universala.
 
-The set / combination of components that a given entity has, is called the
-entity's Archetype.
+La aro de komponantoj, kiujn havas donita ento, estas nomita Enta Arketipo.
 
-Note that entities aren't limited to just "objects in the game world". The ECS
-is a general-purpose data structure. You can create entities and components
-to store any data.
+NB, ke entoj ne estas limigitaj al nur "objektoj en la ludmondo". EKS estas ĝeneraluzebla datumstrukturo. Vi povas krei entojn kaj komponantojn por konservi ajnajn datumojn.
 
-## Performance
+## Plenumeco
 
-Bevy has a smart scheduling algorithm that runs your systems in parallel
-as much as possible. It does that automatically, when your functions don't
-require conflicting access to the same data. Your game will scale to run on
-multiple CPU cores "for free"; that is, without requiring extra development
-effort from you.
+Bevy havas saĝan planad-algoritmon, kiu lanĉas viajn sistemojn paralele laŭ ebleco. Ĝi faras ĉi tion aŭtomate, kiam viaj funkcioj ne bezonas konfliktantan atingon al la sama datumo. Via ludo skalos por funkcii per pluraj CPU-kernoj "senpage"; tio estas, sen bezono de ekstra disvolva penado de vi.
 
-To improve the chances for parallelism, you can make your data and code more
-granular. Split your data into smaller types / `struct`s. Split your logic
-into multiple smaller systems / functions. Have each system access only the
-data that is relevant to it. The fewer access conflicts, the faster your
-game will run.
+Por pliigi la probablecon de samtempeco, vi povas farigi vian datumon kaj kodon pli detaligitaj. Dividu vian datumon en pli malgrandajn tipojn / `struct`-ojn. Dividu vian logikon en multajn pli malgrandajn sistemojn / funkciojn. Igu ĉiun sistemon havi atingon nur al la datumo, kiu estas aktuala por ĝi. Ju malpli da atingaj konfliktoj estos, des pli rapide via ludo funkcios.
 
-The general rule of thumb for Bevy performance is: more granular is better.
+La ĝenerala regulo de Bevy estas: ju pli da detalo, des pli bone.
 
-## Note for Programmers coming from Object-Oriented Languages
+## Rimarko por Programistoj, venantaj el Objekt-Orientitaj Lingvoj
 
-You may be used to thinking in terms of "object classes". For example, you
-might be tempted to define a big monolithic `struct Player` containing all
-the fields / properties of the player.
+Vi eble kutimis pensi laŭ "objektklasoj". Ekzemple, vi povus difini grandan monolitan `struct Player`, enhavantan ĉiujn kampojn/ecojn de la ludanto.
 
-In Bevy, this is considered bad practice, because doing it that way can make
-it more difficult to work with your data, and limit performance.
+En Bevy, tion oni konsideras kiel malbona praktiko, ĉar fari ĉi tion povas malfaciligi laboron kun viaj datumoj kaj limigi plenumecon.
 
-Instead, you should make things granular, when different pieces of data may
-be accessed independently.
+Anstataŭe, vi devus fari aferojn grajnecaj, kiam diversaj datumoj povas esti atingitaj sendepende.
 
-For example, represent the Player in your game as an entity, composed
-of separate component types (separate `struct`s) for things like the
-health, XP, or whatever is relevant to your game. You can also attach
-standard Bevy components like [`Transform`][bevy::Transform] ([transforms
-explained][cb::transform]) to it.
+Ekzemple, prezentu la Ludanton en via ludo kiel ento, kunmetita el apartaj komponantspecoj (apartaj `struct`-oj) por aferoj kiel la sano, XP, aŭ kio ajn gravas por via ludo. Vi ankaŭ povas ligi normajn Bevy-komponantojn al ĝi kiel [`Transformo`][bevy::Transform] ([klarigita ĉi tie][cb::transform]).
 
-This will make it easier for you to develop your systems (game logic /
-behaviors), as well as make your game's runtime performance better.
+Ĉi tio faciligos al vi ellabori viajn sistemojn (luda logiko /
+kondutoj), kaj ankaŭ plibonigi la lanĉan plenumecon de via ludo.
 
-However, something like a [`Transform`][bevy::Transform], or a set of
-coordinates, still makes sense as a single `struct`, because its fields are
-not likely to be useful independently.
+Tamen, io kiel [`Transform`][bevy::Transform], aŭ aro de koordinatoj, ankoraŭ havas sencon kiel ununura `struct`, ĉar ĝiaj kampoj verŝajne ne estos utilaj sendepende.

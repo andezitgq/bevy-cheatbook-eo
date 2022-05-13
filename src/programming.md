@@ -1,21 +1,18 @@
-# Bevy Programming Framework
+# Bevy Programada Enkadraĵo (Framework)
 
 {{#include ./include/links.md}}
 
-This chapter presents the features of the Bevy core programming framework. This
-covers the ECS (Entity Component System), App and Scheduling.
+Ĉi tiu ĉapitro prezentas la apartaĵojn de la Bevy kerna programada enkadraĵo. Ĝi kovras na la EKS (Ent-Komponantan Sistemon), Aplikaĵom kaj Planadon.
 
-For examples of programming patterns and idioms, see the [Programming
-Patterns][chapter::patterns] chapter.
+Por ekzemploj de programad-ŝablonoj vidu la [Programadaj
+Ŝablonoj][chapter::patterns] ĉapitron.
 
-All the knowledge of this chapter is useful even if you want to use Bevy as
-something other than a game engine. For example: using just the ECS for a
-scientific simulation.
+Tuta scio de ĉi tiu ĉapitro estas utila, eĉ se vi deziras uzi na Bevy kiel io alia ol ludmotoro. Ekzemple, uzado nur de EKS por scienca simulado.
 
-Hence, this chapter does not cover the game-engine parts of Bevy. Those
-features are covered in other chapters of the book, like the [Bevy Game
-Engine Core][chapter::features] chapter.
+Tial ĉi tiu ĉapitro ne kovras la ludmotorajn partojn de Bevy. Tiuj apartaĵoj estas kovritaj en aliaj ĉapitro de la libro, kiel la [Kerno de Bevy Ludmotoro][chapter::features] ĉapitro.
 
 Includes concise explanations of each core concept, with code snippets to
 show how it might be used in a game. Care is taken to point out any important
 considerations for using each feature and to recommend known good practices.
+
+Ĝi inkluzivas mallongajn klarigojn pri ĉiu kernkoncepto kun kodaj fragmentoj, montrantaj, kiel ĝi povas esti uzata en la ludo. Oni precipe zorgas, ke indiku gravajn konsiderojn pri uzado de ĉiu funkcio kaj rekomendu konatajn plej bonajn praktikojn.

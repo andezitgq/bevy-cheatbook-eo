@@ -1,4 +1,4 @@
-# Resources
+# Risurcoj
 
 {{#include ../include/links.md}}
 
@@ -53,6 +53,29 @@ inside a system:
 ```
 
 If you insert a resource of a type that already exists, it will be overwritten.
+
+Por ricevi valoron el la risurco vi povas uzi la metodon `into_inner()` kune kun konstruo `Option<T>` por plia sekureco:
+
+```rust,no_run,noplayground
+#[derive(Default)]
+struct Health(u8);
+
+fn main() {
+	App::new()
+		.insert_resource(Health(100))
+		.add_system(get_health)
+		.run();
+}
+
+fn get_health(health: Option<ResMut<Health>>) {
+	if let Some(health) = health {
+		let i = health.into_inner();
+		println!("Health = {}", i.0);
+	}
+}
+
+```
+
 
 ## Usage Advice
 

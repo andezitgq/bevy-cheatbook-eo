@@ -1,4 +1,5 @@
 # Neoficiala Bevy Tromplibro (de Ida Iyes)
+## ATENTO: La traduko estas plenumigata laŭ ordo de la [gvidita instrukcio][chapter::tutorial]
 
 {{#include ./include/links.md}}
 
